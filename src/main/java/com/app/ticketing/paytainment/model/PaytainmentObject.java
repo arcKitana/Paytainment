@@ -20,6 +20,7 @@ public class FlickrRestfulObject {
 	private String generator;
 	private FlickrRestfulObjectItems[] items;
 	private Date date;
+	private Date countDate;
 	
 	
 	public String getId() {
@@ -69,6 +70,12 @@ public class FlickrRestfulObject {
 	}
 	public void setDate(Date date) {
 		this.date = date;
+	}
+	public Date getCountDate() {
+		return countDate;
+	}
+	public void setCountDate(Date countDate) {
+		this.countDate = countDate;
 	}
 	
 	@Override
